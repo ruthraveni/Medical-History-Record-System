@@ -22,8 +22,6 @@ public class MedicalRecord {
     public String getRecordId() {
         return recordId;
     }
-
-    // 🔴 THIS METHOD WAS MISSING
     public String getPatientId() {
         return patientId;
     }
@@ -44,3 +42,4 @@ public class MedicalRecord {
         this.doctorNotes = doctorNotes;
     }
 }
+
