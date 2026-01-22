@@ -55,12 +55,12 @@ public class Main {
                     "Thyroxine 75mg daily",
                     "Increase dosage and continue monitoring"
             );
-            System.out.println("--- Medical History ---");
+            System.out.println(" Medical History ");
             for (MedicalRecord m : service.getMedicalHistory("P001")) {
                 System.out.println(m.getDiagnosis());
             }
 
-            System.out.println("\n--- Medical Summary ---");
+            System.out.println("\n Medical Summary ");
             System.out.println(service.generateMedicalSummary("P001"));
 
         } catch (Exception ex) {
@@ -68,3 +68,4 @@ public class Main {
         }
     }
 }
+
